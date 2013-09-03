@@ -25,7 +25,7 @@ $result = $client->pegaRepresentante();
 if (is_soap_fault($result)){
 	trigger_error("SOAP Fault: (faultcode: {$result->faultcode},
 	faultstring: {$result->faulstring})", E_ERROR);
-}else{
+	}else{
 		$con=mysqli_connect("localhost","root","mudar123","mydb");
 		// Check connection
 		if (mysqli_connect_errno())
@@ -55,9 +55,9 @@ if (is_soap_fault($result)){
 	}
 
     
-    }else{
-    echo "<font color=red> <b>Offline </b></font>";
-    }
+    	}else{
+    		echo "<font color=red> <b>Offline </b></font>";
+    	}
     }
     ?>
      
