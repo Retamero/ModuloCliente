@@ -47,8 +47,8 @@ if (is_soap_fault($result)){
 				     Cod_Barra, 
 				     MaxDesc, 
 				     Preco_vda) VALUES ('"
-				     .$sid_produto."', '"
 				     .$sid_fornecedor."', '"
+				     .$sid_produto."', '"
 				     .$sreferencia."', '"
 				     .$saplicacao."', '"
 				     .$sunidade."', '"

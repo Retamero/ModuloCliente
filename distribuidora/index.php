@@ -3,12 +3,12 @@
     </head>
     <body>
     <form action="websvc/cliente.php" method="post">
-    <input type="hidden" name="url" value="https://distribuidora.dnsget.org:9443">
+    <input type="hidden" name="url" value="https://distribuidora.dnsget.org">
     <input type="submit" value="OK">
     </form>
     <b>Status:</b> <?
     //$url = 'http://server.ddcred.com.br';
-    $url = 'https://distribuidora.dnsget.org:9443';
+    $url = 'https://distribuidora.dnsget.org';
     if ($url)
     {
     $sitio = @fopen($url,"r");
